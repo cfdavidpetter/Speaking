@@ -1,0 +1,20 @@
+<ion-view title="{{ confirmation.phone }}">
+  <ion-nav-buttons side="right">
+    <button ng-click="confirmation.confirm()" ng-disabled="!confirmation.code || confirmation.code.length === 0" class="button button-clear button-positive">Done</button>
+  </ion-nav-buttons>
+ 
+  <ion-content>
+    <div class="text-center padding">
+      Enviámos um SMS com o código de verificação
+    </div>
+    <div class="text-center padding">
+      Para completar a verificação do seu número de telefone, introduza o código de ativação de 4 dígitos.
+    </div>
+ 
+    <div class="list padding-top">
+      <label class="item item-input">
+        <input ng-model="confirmation.code" on-return="confirmation.confirm()" type="text" placeholder="Código">
+      </label>
+    </div>
+  </ion-content>
+</ion-view>

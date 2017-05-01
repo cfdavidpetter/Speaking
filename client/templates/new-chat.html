@@ -1,0 +1,19 @@
+<ion-modal-view ng-controller="NewChatCtrl as chat">
+  <ion-header-bar>
+    <h1 class="title">Novo Chat</h1>
+    <div class="buttons">
+      <button class="button button-clear button-positive" ng-click="chat.hideNewChatModal()">Cancelar</button>
+    </div>
+  </ion-header-bar>
+
+  <ion-content>
+    <div class="list">
+      <a ng-repeat="user in chat.users" ng-click="chat.newChat(user._id)" class="item">
+        <h2>{{ user.profile.name }}</h2>
+        <p>
+          Olá! Eu estou usando Speaking feito em Meteor
+        </p>
+      </a>
+    </div>
+  </ion-content>
+</ion-modal-view>
