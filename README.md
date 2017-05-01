@@ -14,5 +14,6 @@ meteor --settings settings.json
 
 ## Utilização
 Você pode utilizar dois telefones para fazer login
+
 Telefones: +123456789 ou +987654321
 Código padrão: 1234
