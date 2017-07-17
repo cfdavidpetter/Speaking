@@ -1,5 +1,5 @@
 # Speaking
-Um programa de Chat fácil e simples para PC e Celular. Speaking foi feito com `Meteor` e `Ionic` para estarmos seu potencial.
+Um programa de Chat fácil e simples para PC e Celular. Speaking foi feito com `Meteor` e `Ionic` para testarmos seu potencial.
 
 ## Instalação
 #### 1° Faça a instalação do Meteor.
